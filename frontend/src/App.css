@@ -1,0 +1,52 @@
+
+
+.parent
+{
+    height: 100vh;
+    width: 100%;
+    padding: 30px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+.form
+{
+    /* background-color: rgb(174, 169, 169); */
+    width: 450px;
+    /* height: 250px; */
+    row-gap: 15px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: flex-start;
+}
+
+.inp
+{
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    text-indent: 20px;
+    outline: none;
+    border: 1px solid gray;
+    
+}
+
+.btn
+{
+    background-color: rgb(40, 108, 217);
+    padding: 10px 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.btn:hover
+{
+    background-color: rgb(38, 67, 115);
+}
